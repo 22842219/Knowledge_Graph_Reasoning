@@ -1,0 +1,17 @@
+#cypher
+
+MATCH (n) DETACH DELETE n
+
+CREATE (n:Person { name: 'Vic', title: 'Developer' }) return n;
+match(n:Person{name:"Vic"}),(m:Person{name:"Andres"}) create (n)-[r:Friend]->(m) return r;
+match(n:Person{name:"Vic"}),(m:Person{name:"Andres"}) create (n)<-[r:Friend]-(m) return r;
+
+
+match(n) return n;
+
+
+
+#install py2neo
+pip install py2neo
+
+
