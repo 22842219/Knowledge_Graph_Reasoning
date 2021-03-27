@@ -21,3 +21,6 @@ https://towardsdatascience.com/nlp-and-graphs-go-hand-in-hand-with-neo4j-and-apo
 # neo4j plugin folder dir
 sudo su
 mv "folderpath_of_nlp_dependencies" /var/lib/neo4j/plugins
+
+useful link: "https://markhneedham.com/blog/2020/05/05/quick-graph-building-entity-graph-twin4j-apoc-nlp/"
+
