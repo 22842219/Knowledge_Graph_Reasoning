@@ -16,3 +16,7 @@ pip install py2neo
 
 # nlp goes hand in hand with graph
 https://towardsdatascience.com/nlp-and-graphs-go-hand-in-hand-with-neo4j-and-apoc-e57f59f46845
+
+
+# neo4j plugin folder dir
+/var/lib/neo4j/plugins
